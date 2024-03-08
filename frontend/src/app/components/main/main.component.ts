@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
 
+  componentCase: number = 0;
+
+  showComponent(opc: number){
+    this.componentCase = opc;
+  }
+
 }
